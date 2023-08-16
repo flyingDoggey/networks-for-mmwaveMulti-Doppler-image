@@ -1,0 +1,131 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 32, 64, 64]             896
+              ReLU-2           [-1, 32, 64, 64]               0
+         MaxPool2d-3           [-1, 32, 32, 32]               0
+              ReLU-4           [-1, 32, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          18,496
+              ReLU-6           [-1, 64, 32, 32]               0
+         MaxPool2d-7           [-1, 64, 16, 16]               0
+              ReLU-8           [-1, 64, 16, 16]               0
+            Conv2d-9          [-1, 128, 16, 16]          73,856
+             ReLU-10          [-1, 128, 16, 16]               0
+AdaptiveAvgPool2d-11            [-1, 128, 8, 8]               0
+           Linear-12                  [-1, 128]       1,048,704
+           Linear-13                    [-1, 8]           1,032
+================================================================
+Total params: 1,142,984
+Trainable params: 1,142,984
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.05
+Forward/backward pass size (MB): 4.31
+Params size (MB): 4.36
+Estimated Total Size (MB): 8.72
+----------------------------------------------------------------
+-----------------------------------------------------Start Training-----------------------------------------------------
+epoch: 0, Train Loss: 2.1415, Train Acc: 0.1250
+epoch: 0, Test Loss: 2.0810, Test Acc: 0.1202
+epoch: 1, Train Loss: 2.1277, Train Acc: 0.0234
+epoch: 1, Test Loss: 2.0807, Test Acc: 0.1202
+epoch: 2, Train Loss: 2.1203, Train Acc: 0.0550
+epoch: 2, Test Loss: 2.0803, Test Acc: 0.1202
+epoch: 3, Train Loss: 2.1197, Train Acc: 0.0350
+epoch: 3, Test Loss: 2.0801, Test Acc: 0.1202
+epoch: 4, Train Loss: 2.1194, Train Acc: 0.0250
+epoch: 4, Test Loss: 2.0799, Test Acc: 0.1202
+epoch: 5, Train Loss: 2.1192, Train Acc: 0.0147
+epoch: 5, Test Loss: 2.0797, Test Acc: 0.1202
+epoch: 6, Train Loss: 2.1190, Train Acc: 0.0050
+epoch: 6, Test Loss: 2.0796, Test Acc: 0.1202
+epoch: 7, Train Loss: 2.1188, Train Acc: 0.0000
+epoch: 7, Test Loss: 2.0795, Test Acc: 0.1202
+epoch: 8, Train Loss: 2.1186, Train Acc: 0.0000
+epoch: 8, Test Loss: 2.0793, Test Acc: 0.1202
+epoch: 9, Train Loss: 2.1184, Train Acc: 0.0000
+epoch: 9, Test Loss: 2.0792, Test Acc: 0.1202
+epoch: 10, Train Loss: 2.1182, Train Acc: 0.0000
+epoch: 10, Test Loss: 2.0791, Test Acc: 0.1202
+epoch: 11, Train Loss: 2.1180, Train Acc: 0.0000
+epoch: 11, Test Loss: 2.0790, Test Acc: 0.1202
+epoch: 12, Train Loss: 2.1177, Train Acc: 0.0000
+epoch: 12, Test Loss: 2.0788, Test Acc: 0.1202
+epoch: 13, Train Loss: 2.1174, Train Acc: 0.0000
+epoch: 13, Test Loss: 2.0786, Test Acc: 0.1202
+epoch: 14, Train Loss: 2.1171, Train Acc: 0.0000
+epoch: 14, Test Loss: 2.0784, Test Acc: 0.1202
+epoch: 15, Train Loss: 2.1168, Train Acc: 0.0000
+epoch: 15, Test Loss: 2.0782, Test Acc: 0.1202
+epoch: 16, Train Loss: 2.1164, Train Acc: 0.0000
+epoch: 16, Test Loss: 2.0779, Test Acc: 0.1226
+epoch: 17, Train Loss: 2.1159, Train Acc: 0.0000
+epoch: 17, Test Loss: 2.0775, Test Acc: 0.1394
+epoch: 18, Train Loss: 2.1154, Train Acc: 0.0000
+epoch: 18, Test Loss: 2.0771, Test Acc: 0.1683
+epoch: 19, Train Loss: 2.1148, Train Acc: 0.0000
+epoch: 19, Test Loss: 2.0766, Test Acc: 0.1707
+epoch: 20, Train Loss: 2.1141, Train Acc: 0.0000
+epoch: 20, Test Loss: 2.0758, Test Acc: 0.1707
+epoch: 21, Train Loss: 2.1131, Train Acc: 0.0000
+epoch: 21, Test Loss: 2.0749, Test Acc: 0.1731
+epoch: 22, Train Loss: 2.1120, Train Acc: 0.0000
+epoch: 22, Test Loss: 2.0736, Test Acc: 0.1755
+epoch: 23, Train Loss: 2.1105, Train Acc: 0.0000
+epoch: 23, Test Loss: 2.0718, Test Acc: 0.1755
+epoch: 24, Train Loss: 2.1086, Train Acc: 0.0000
+epoch: 24, Test Loss: 2.0693, Test Acc: 0.1803
+epoch: 25, Train Loss: 2.1060, Train Acc: 0.0059
+epoch: 25, Test Loss: 2.0656, Test Acc: 0.1995
+epoch: 26, Train Loss: 2.1023, Train Acc: 0.0250
+epoch: 26, Test Loss: 2.0601, Test Acc: 0.2212
+epoch: 27, Train Loss: 2.0968, Train Acc: 0.0509
+epoch: 27, Test Loss: 2.0514, Test Acc: 0.2452
+epoch: 28, Train Loss: 2.0881, Train Acc: 0.0825
+epoch: 28, Test Loss: 2.0366, Test Acc: 0.2764
+epoch: 29, Train Loss: 2.0739, Train Acc: 0.1128
+epoch: 29, Test Loss: 2.0105, Test Acc: 0.2909
+epoch: 30, Train Loss: 2.0507, Train Acc: 0.1372
+epoch: 30, Test Loss: 1.9695, Test Acc: 0.2981
+epoch: 31, Train Loss: 2.0131, Train Acc: 0.1575
+epoch: 31, Test Loss: 1.9255, Test Acc: 0.2981
+epoch: 32, Train Loss: 1.9588, Train Acc: 0.2000
+epoch: 32, Test Loss: 1.8866, Test Acc: 0.3029
+epoch: 33, Train Loss: 1.8986, Train Acc: 0.2787
+epoch: 33, Test Loss: 1.8410, Test Acc: 0.3630
+epoch: 34, Train Loss: 1.8895, Train Acc: 0.2731
+epoch: 34, Test Loss: 1.7951, Test Acc: 0.3654
+epoch: 35, Train Loss: 1.6904, Train Acc: 0.3469
+epoch: 35, Test Loss: 1.8927, Test Acc: 0.2548
+epoch: 36, Train Loss: 1.6575, Train Acc: 0.3331
+epoch: 36, Test Loss: 1.9462, Test Acc: 0.2380
+epoch: 37, Train Loss: 1.9352, Train Acc: 0.2547
+epoch: 37, Test Loss: 1.9143, Test Acc: 0.2404
+epoch: 38, Train Loss: 1.9259, Train Acc: 0.2662
+epoch: 38, Test Loss: 1.8598, Test Acc: 0.2716
+epoch: 39, Train Loss: 1.8006, Train Acc: 0.2916
+epoch: 39, Test Loss: 1.7667, Test Acc: 0.2885
+epoch: 40, Train Loss: 1.6465, Train Acc: 0.3575
+epoch: 40, Test Loss: 1.6916, Test Acc: 0.3774
+epoch: 41, Train Loss: 1.5308, Train Acc: 0.4200
+epoch: 41, Test Loss: 1.6846, Test Acc: 0.4423
+epoch: 42, Train Loss: 1.5304, Train Acc: 0.4619
+epoch: 42, Test Loss: 1.7252, Test Acc: 0.4135
+epoch: 43, Train Loss: 1.5521, Train Acc: 0.4647
+epoch: 43, Test Loss: 1.6980, Test Acc: 0.4014
+epoch: 44, Train Loss: 1.5498, Train Acc: 0.4481
+epoch: 44, Test Loss: 1.6610, Test Acc: 0.3942
+epoch: 45, Train Loss: 1.4657, Train Acc: 0.4434
+epoch: 45, Test Loss: 1.6045, Test Acc: 0.4303
+epoch: 46, Train Loss: 1.3734, Train Acc: 0.4616
+epoch: 46, Test Loss: 1.5512, Test Acc: 0.4736
+epoch: 47, Train Loss: 1.3005, Train Acc: 0.4797
+epoch: 47, Test Loss: 1.5271, Test Acc: 0.4976
+epoch: 48, Train Loss: 1.2541, Train Acc: 0.4919
+epoch: 48, Test Loss: 1.5310, Test Acc: 0.5168
+epoch: 49, Train Loss: 1.2191, Train Acc: 0.5059
+epoch: 49, Test Loss: 1.5369, Test Acc: 0.5264
+epoch: 50, Train Loss: 1.1918, Train Acc: 0.5225
+epoch: 50, Test Loss: 1.5145, Test Acc: 0.5312
+epoch: 51, Train Loss: 1.1796, Train Acc: 0.5281
+epoch: 51, Test Loss: 1.4690, Test Acc: 0.5264
